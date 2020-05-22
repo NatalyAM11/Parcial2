@@ -18,4 +18,9 @@ public class Controller {
 		logica.pintar();
 		
 	}
+	
+	public void sortList(char c) {
+		logica.sortList(c);
+			
+		}
 }

@@ -29,4 +29,8 @@ public class Main extends PApplet {
 		controller.pintar();
 		
 	}
+	
+	public void keyPressed() {
+		controller.sortList(key);
+	}
 }
